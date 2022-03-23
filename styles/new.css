@@ -1,0 +1,90 @@
+.project-overlap {
+  width: 90%;
+  /* max-width: 1000px; */
+  margin: 4rem auto 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  width: 100%;
+  height: 400px;
+  border-radius: 1rem;
+  margin-right: -150px;
+  z-index: 1;
+  box-shadow: 12px 10px 20px #dddee0, -12px -12px 20px #ffffff;
+}
+
+.left-componentlibrary {
+  background: url(../images/Projects/Akarmaxs.png) no-repeat;
+  background-size: cover;
+}
+
+.left-componentlibrary1 {
+  background: url(../images/Projects/Ubuntu.png) no-repeat;
+  background-size: cover;
+}
+
+.left-componentlibrary2 {
+  background: url(../images/Projects/Namo_wellness.png) no-repeat;
+  background-size: cover;
+}
+
+.left-componentlibrary3 {
+  background: url(../images/Projects/Influence_pro.png) no-repeat;
+  background-size: cover;
+}
+
+.left-componentlibrary4 {
+  background: url(../images/Projects/mathaji.png) no-repeat;
+  background-size: cover;
+}
+
+.left-componentlibrary5 {
+  background: url(../images/Projects/future_frames.png) no-repeat;
+  background-size: cover;
+}
+
+.left-componentlibrary6 {
+  background: url(../images/Projects/Healthy_dig.png) no-repeat;
+  background-size: cover;
+}
+.right {
+  width: 100%;
+  min-height: 500px;
+  background-color: var(--offwhite-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 10rem;
+  border-radius: 1rem;
+  box-shadow: 7px 12px 20px #dddee0, -1px -16px 20px #ffffff;
+}
+
+.content > h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.content > p {
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.Other_websites > h3 {
+  font-size: 30px;
+  margin: 20px 0 30px 680px;
+}
+
+.Other_websites > p {
+  font-size: 25px;
+  margin-left: 500px;
+}
+
+.Other_websites_links > li {
+  font-size: 20px;
+  padding: 15px;
+  margin-left: 500px;
+}
